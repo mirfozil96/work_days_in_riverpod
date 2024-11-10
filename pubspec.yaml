@@ -1,0 +1,138 @@
+name: rbc_control
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+  # for design
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+
+  # for logging
+  l: ^4.0.2
+
+  # for state management
+
+  flutter_riverpod: ^2.5.1
+  # for local storage
+  shared_preferences: ^2.2.3
+
+  # firebase
+
+  http: ^1.2.1
+  http_parser: ^4.0.2
+  go_router: ^14.2.1
+  flutter_svg: ^2.0.10+1
+  flutter_gen: ^5.6.0
+  d_navigation_bar: ^0.0.1
+  path_provider: ^2.1.3
+  image_picker: ^1.1.2
+  table_calendar: ^3.1.2
+  flutter_slidable: ^3.1.1
+  cached_network_image: ^3.3.1
+
+  # pinput
+  pinput: ^5.0.0
+  email_otp: ^3.0.1
+
+
+#firebase_optionsga
+  firebase_core: ^3.2.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.1.0
+  google_sign_in: ^6.2.1
+  google_fonts: ^6.2.1
+  intl_utils: ^2.8.7
+  firebase_storage: ^12.1.2
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.11
+  flutter_gen_runner: ^5.6.0
+
+  flutter_lints: ^4.0.0
+
+flutter_gen:
+  output: lib/gen/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+  # Optional
+  integrations:
+    flutter_svg: true
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/DM_Sans/static/DMSans-Black.ttf
+          weight: 900
+        - asset: assets/fonts/DM_Sans/static/DMSans-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/DM_Sans/static/DMSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/DM_Sans/static/DMSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/DM_Sans/static/DMSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/DM_Sans/static/DMSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/DM_Sans/static/DMSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/DM_Sans/static/DMSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/DM_Sans/static/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/DM_Sans/static/DMSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/DM_Sans/static/DMSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/DM_Sans/static/DMSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/DM_Sans/static/DMSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/DM_Sans/static/DMSans-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/DM_Sans/static/DMSans-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/DM_Sans/static/DMSans-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/DM_Sans/static/DMSans-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/DM_Sans/static/DMSans-Italic.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700

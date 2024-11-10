@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588990050531",
+    "project_id": "rbccontrol-abc73",
+    "storage_bucket": "rbccontrol-abc73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588990050531:android:41fd25a108d895ba82d5d6",
+        "android_client_info": {
+          "package_name": "me.anjoylife.rbc.rbc_control"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJ-FUveB7z15SFX2HZBB3MUqxqWGS3n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
